@@ -21,10 +21,9 @@ class Dog
         puts @@all.collect { |dog| dog.name }
     end 
 
-    def self.save 
-     @save
+    def save 
+        @@all << self
     end 
-
 
 
 end
