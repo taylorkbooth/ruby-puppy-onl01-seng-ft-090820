@@ -13,8 +13,9 @@ class Dog
     @@all
 end  
   
-  def clear_all
-  
+  def clear_all(all)
+   if all == []
+     puts "#{@@all.clear}"
     
   end
   
