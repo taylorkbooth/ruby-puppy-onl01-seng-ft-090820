@@ -1,26 +1,26 @@
-class Dog
+# class Dog
   
-  @@all = []
+#   @@all = []
   
-  attr_accessor :name
+#   attr_accessor :name
   
-  def initialize(name)
-    @name = name
-    @@all << self
-  end
+#   def initialize(name)
+#     @name = name
+#     @@all << self
+#   end
   
-  def self.all
-    @@all
-end  
+#   def self.all
+#     @@all
+# end  
   
-  def clear_all(all)
-   if all == []
-     puts "#{@@all.clear}"
+#   def clear_all(all)
+#   if all == []
+#     puts "#{@@all.clear}"
     
-  end
+#   end
   
   
   
   
   
-end
+# end
