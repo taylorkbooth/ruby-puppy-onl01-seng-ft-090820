@@ -52,5 +52,5 @@ class Dog
         @@all << self
     end 
     save
-
+end
 end
